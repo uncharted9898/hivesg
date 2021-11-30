@@ -1,3 +1,4 @@
+mkdir ~/mining
 cp ccminer ~/mining                                                                                                                                                            
 cp run.sh ~/mining                                                                                                                                                             
 cp service.sh ~/mining                                                                                                                                                         
