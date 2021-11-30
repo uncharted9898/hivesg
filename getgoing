@@ -1,0 +1,8 @@
+cp ccminer ~/mining                                                                                                                                                            
+cp run.sh ~/mining                                                                                                                                                             
+cp service.sh ~/mining                                                                                                                                                         
+cp verus.service ~/mining
+cd ~/mining
+chmod +x ccminer
+chmod +x run.sh                                                                                                                                                               
+chmod +x service.sh
