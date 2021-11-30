@@ -1,7 +1,2 @@
-mkdir mining
-cd ~/mining
-wget https://github.com/monkins1010/ccminer/releases/download/v3.7.0/ccminer_3_7_ubuntu_18.04
-mv ccminer_3_7_ubuntu_18.04 ~/mining/ccminer
-chmod +x ccminer
-chmod +x run.sh
-
+#!/bin/bash
+/home/user/mining/ccminer -a verus -o stratum+tcp://192.168.100.2:9999 -u RGSax1L2A3QLNSNZfs1TCPSsrzyjjXeB4s. -t 23
