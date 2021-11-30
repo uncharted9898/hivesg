@@ -1,0 +1,12 @@
+[Unit]                                                                                                                                                                                           
+Description=Verus Mining Service                                                                                                                                                                 
+                                                                                                                                                                                                 
+[Service]                                                                                                                                                                                        
+User=root                                                                                                                                                                                        
+WorkingDirectory=/tmp                                                                                                                                                                            
+EnvironmentFile=/etc/environment                                                                                                                                                                 
+ExecStart=/home/user/mining/run.sh                                                                                                                                                               
+                                                                                                                                                                                                 
+[Install]                                                                                                                                                                                        
+WantedBy=multi-user.target
+                                                                                                                                                                                                 
